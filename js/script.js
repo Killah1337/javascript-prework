@@ -7,11 +7,12 @@ let computerMove = 'papier';
 if(randomNumber == 1){
   computerMove = 'kamień';
 }
-if(randomNumber == 2){
+else if(randomNumber == 2){
 	computerMove = 'papier';
   }
-  if(randomNumber == 1){
+  else if(randomNumber == 3){
 	computerMove = 'nożyce';
   }
 
 printMessage('Mój ruch to: ' + computerMove);
+
